@@ -40,7 +40,6 @@ function files(dir) {
 
 var gex = new RegExp(process.argv[2])
 var maxConcurrent = process.argv[3] && parseInt(process.argv[3], 10) || 5
-log(maxConcurrent + " @")
 
 files("./").
 	map(function(file) {
