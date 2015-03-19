@@ -1,0 +1,21 @@
+{
+  "name": "rgrep-rx",
+  "description": "recursive grep implemention in rx.",
+  "main": "index.js",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "maintainers": [
+    {
+      "name": "Erik Backer"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cerealbox/rgrep-rx.git"
+  },
+  "dependencies": {
+    "rx": "~2.4.3",
+    "lazy": "~1.0.11"
+  }
+}
